@@ -1,0 +1,1 @@
+export default ( className, context = document ) => context.classList.add( className );
