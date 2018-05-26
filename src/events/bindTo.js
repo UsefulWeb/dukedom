@@ -1,0 +1,1 @@
+export default ( context = document, event, handler ) => context.addEventListener( event, handler );

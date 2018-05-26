@@ -1,0 +1,1 @@
+export default ( id, context = document ) => context.getElementById( id );
