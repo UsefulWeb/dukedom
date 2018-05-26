@@ -1,0 +1,1 @@
+export default ( selector, context = document ) => context.closest( selector );

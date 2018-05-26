@@ -4,8 +4,16 @@
   "description": "Functional Javascript DOM API",
   "main": "dist/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "cross-env NODE_ENV=production webpack"
   },
   "author": "Useful Web",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "babel-loader": "^7.1.4",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-stage-0": "^6.24.1",
+    "cross-env": "^5.1.6",
+    "webpack-cli": "^2.1.4"
+  }
 }
