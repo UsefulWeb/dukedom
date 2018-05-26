@@ -1,5 +1,5 @@
 {
-  "name": "fdom",
+  "name": "functional-dom",
   "version": "0.0.1",
   "description": "Functional Javascript DOM API",
   "main": "dist/index.js",
