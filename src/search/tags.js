@@ -1,1 +1,3 @@
-export default ( tagName, context = document ) => context.getElementsByTagName( tagName );
+import findContext from '../_util/findContext';
+
+export default ( tagName, context ) => findContext( context ).getElementsByTagName( tagName );

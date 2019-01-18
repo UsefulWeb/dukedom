@@ -1,2 +1,3 @@
-# fdom
+# DOMino
+
 Functional Javascript DOM API

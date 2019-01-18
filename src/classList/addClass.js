@@ -1,1 +1,3 @@
-export default ( className, context = document ) => context.classList.add( className );
+import findContext from '../_util/findContext';
+
+export default ( className, context ) => findContext( context ).classList.add( className );

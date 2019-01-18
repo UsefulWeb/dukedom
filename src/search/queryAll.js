@@ -1,1 +1,3 @@
-export default ( selector, context = document ) => context.querySelectorAll( selector );
+import findContext from '../_util/findContext';
+
+export default ( selector, context ) => findContext( context ).querySelectorAll( selector );

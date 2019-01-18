@@ -1,1 +1,0 @@
-export default ( context = document, attribute, value ) => context.setAttribute( attribute, value );

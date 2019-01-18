@@ -1,6 +1,6 @@
 {
-  "name": "functional-dom",
-  "version": "0.0.1",
+  "name": "domino",
+  "version": "1.0.0",
   "description": "Functional Javascript DOM API",
   "main": "dist/index.js",
   "scripts": {

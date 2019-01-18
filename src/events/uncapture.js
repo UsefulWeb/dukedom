@@ -1,1 +1,0 @@
-export default ( event, handler, context = document ) => context.removeEventListener( event, handler, true );
